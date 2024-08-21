@@ -1,0 +1,231 @@
+header{
+    background-color: rgba(1, 19, 9, 0.842);
+    width: 100%;
+    top: -9px;
+    height: 110px;
+    box-sizing: border-box;
+}
+.BlogFinancial{
+    height: fit-content;
+    box-sizing: border-box;
+}
+nav{
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    box-sizing: border-box;
+}
+nav ,li ,ul{
+    display: inline-block;
+    box-sizing: border-box;
+}
+ul{
+    float: right;
+    box-sizing: border-box;
+}
+li{
+    padding: 0px 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+li:hover{
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.top{
+    height: 920px;
+    box-sizing: border-box;
+}
+.body{
+    background-color: rgba(1, 19, 9, 0.63);
+    box-sizing: border-box;
+}
+.top > .call{
+    margin-left: 20%;
+    margin-top: 15px;
+    border: 10px solid white;
+    box-sizing: border-box;
+}
+.text{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.253);
+    position: absolute;
+    top: 200px;
+    right: 750px;
+    width: 300px;
+    box-sizing: border-box;
+}
+.mobile, .man, .heels, .kid{
+    display: inline-block;
+    width: 220px;
+    height: 200px; 
+    box-sizing: border-box;
+}
+.p1p{
+    color: rgba(1, 19, 9, 0.842);
+    width: 220px;
+    font-size: medium;
+    box-sizing: border-box;
+}
+.p{
+    color: rgba(39, 38, 38, 0.918);
+    width: 220px;
+    font-size: small;
+    box-sizing: border-box;
+}
+.b1{
+    float:initial;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+    color: white;
+    background-color: rgb(28, 85, 28);
+    border: 2px rgb(28, 85, 28);
+    border-style: groove;
+    box-sizing: border-box;
+}
+.b1:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.p1 > .mobile,.p1p,p{
+    margin-left: 130px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.p2 > .man,.p2>.p1p,.p2>.p,.p2>.b1{
+    margin-left: 410px;
+    position: relative;
+    bottom: 430px;
+    box-sizing: border-box;
+}
+.p3>.heels,.p3>.p1p,.p3>.p,.p3>.b1{
+    margin-left: 680px;
+    position: relative;
+    bottom: 860px;
+    box-sizing: border-box;
+}
+.p4>.kid,.p4>.p1p,.p4>.p,.p4>.b1{
+    margin-left: 950px;
+    position: relative;
+    bottom: 1290px;
+    box-sizing: border-box;
+}
+.p1>.b1{
+    margin-left: 130px;
+    box-sizing: border-box;
+}
+.div1{
+    color: white;
+    box-sizing: border-box;
+}
+.div1>.left{
+    width: 15%;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.div1>.left>.img{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+}
+.div1>h3{
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.div1>.right>p{
+    width: 420px;
+    box-sizing: border-box;
+}
+.div1>.right>button{
+    color: white;
+    background-color: rgba(1, 19, 9, 0.795);
+    border-radius: 10px;
+    height: 30px;
+    box-sizing: border-box;
+}
+.div2>.img{
+    width: 80px;
+    height: 40px;
+    margin-left: 300px;
+    box-sizing: border-box;
+}
+.div2{
+    position: relative;
+    color: white;
+    left: 450px;
+    bottom: 175px;
+    box-sizing: border-box;
+}
+.div2>p{
+    width: 280px;
+    box-sizing: border-box;
+}
+.div2>h3{
+    margin-right: 800px;
+    box-sizing: border-box;
+}
+.bottom{
+    font-size: small;
+    height: 200px;
+    box-sizing: border-box;
+}
+.div3{
+    position: relative;
+    color: white;
+    left: 750px;
+    bottom: 367px;
+    box-sizing: border-box;
+}
+.div3>p{
+    width: 280px;
+    box-sizing: border-box;
+}
+.div3>h3,.div3>.button1{
+    margin-left: 150px;
+    box-sizing: border-box;
+}
+.button2,.button1{
+    color: white;
+    background-color: rgba(1, 19, 9, 0.795);
+    border-radius: 10px;
+    height: 30px;
+    box-sizing: border-box;
+}
+.cards{
+    background-color: rgb(243, 232, 210);
+    height: 450px;
+    box-sizing: border-box;
+}
+.contact{
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: rgba(1, 19, 9, 0.842);
+    box-sizing: border-box;
+}
+.contact>p{
+    width: 400px;
+    font-size: small;
+    box-sizing: border-box;
+}
+.contact>img{
+    width: 30px;
+    height: 30px;
+    float: right;
+    position: relative;
+    bottom: 43px;
+    right: 20px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
